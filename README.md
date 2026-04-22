@@ -4,29 +4,29 @@ Pipeline completo de Machine Learning para clasificación de imágenes, diseñad
 
 ---
 
-## 📸 Demo
+## Demo
 
 ![API Demo](assets/demo.png)
 
 ---
 
-## 🚀 Qué demuestra este proyecto
+## Qué demuestra este proyecto
 
 * Transfer Learning con MobileNetV2 (TensorFlow / Keras)
 * Serving del modelo mediante FastAPI
 * Integración de C++ (OpenCV) para preprocesamiento de imágenes
-* Entorno reproducible en Linux (WSL)
+* Entorno reproducible en Linux
 * Resolución de problemas reales de portabilidad de modelos
 
 ---
 
-## 🧠 Arquitectura
+## Arquitectura
 
 Cliente → FastAPI → Preprocesamiento en C++ → Inferencia en Python → Respuesta
 
 ---
 
-## ⚙️ Stack tecnológico
+## Stack tecnológico
 
 * Python (TensorFlow, Keras, FastAPI)
 * C++ (OpenCV)
@@ -35,7 +35,7 @@ Cliente → FastAPI → Preprocesamiento en C++ → Inferencia en Python → Res
 
 ---
 
-## ▶️ Cómo ejecutar
+## Cómo ejecutar
 
 ```bash id="b9s1xf"
 python3 -m venv .venv
@@ -50,7 +50,7 @@ http://localhost:8000/docs
 
 ---
 
-## 📌 Endpoint
+## Endpoint
 
 **POST** `/predict`
 
@@ -64,7 +64,7 @@ Subir una imagen y obtener la predicción:
 
 ---
 
-## 🧪 Flujo del pipeline
+## Flujo del pipeline
 
 1. Se recibe la imagen vía API
 2. Se almacena temporalmente
@@ -75,38 +75,6 @@ Subir una imagen y obtener la predicción:
 
 ---
 
-## 💡 Insight de ingeniería (clave)
-
-Durante el desarrollo surgieron problemas de compatibilidad al mover modelos entre entornos (versiones de TensorFlow/Keras).
-
-Para resolverlos:
-
-* se estandarizó el entorno
-* se alinearon versiones
-* se reconstruyó el pipeline para asegurar reproducibilidad
-
----
-
-## 📈 Por qué es relevante
-
-Este proyecto no se enfoca solo en el modelo, sino en:
-
-* preparación para despliegue
-* integración de sistemas (Python + C++)
-* reproducibilidad
-* debugging de problemas reales de ML
-
----
-
-## 🔧 Mejoras futuras
-
-* Containerización con Docker
-* Logging y monitoreo
-* Soporte para inferencia batch
-* Versionado de modelos
-
----
-
-## 👤 Autor
+## Autor
 
 Leonel Saire Choque
