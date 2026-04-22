@@ -10,7 +10,7 @@ Pipeline completo de Machine Learning para clasificación de imágenes, diseñad
 
 ---
 
-## Qué demuestra este proyecto
+## Detalle del proyecto
 
 * Transfer Learning con MobileNetV2 (TensorFlow / Keras)
 * Serving del modelo mediante FastAPI
