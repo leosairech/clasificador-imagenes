@@ -1,4 +1,4 @@
-# Pipeline MLE de Clasificación de Imágenes (Gatos vs Perros)
+# Pipeline de Clasificación de Imágenes (Gatos vs Perros)
 
 Pipeline completo de Machine Learning para clasificación de imágenes, diseñado con un enfoque orientado a producción.
 
